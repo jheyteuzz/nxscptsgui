@@ -1296,7 +1296,7 @@ local PlayerTab = Window:Tab({Title = "Player", Icon = "user"}) do
         Value = true, 
         Callback = function(state)
             if state then
-                local url = "https://raw.githubusercontent.com/six999sx/Float-Base/refs/heads/main/Floatbase"
+                local url = "https://raw.githubusercontent.com/jheyteuzz/FloatBase/refs/heads/main/FloatBase"
                 local success, err = pcall(function()
                     loadstring(game:HttpGet(url, true))()
                 end)
