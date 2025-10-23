@@ -1384,7 +1384,7 @@ infiniteJumpToggle = PlayerTab:Toggle({
         Value = true,
         Callback = function(state)
             if state then
-                local url = "https://raw.githubusercontent.com/six999sx/3rd-flor/refs/heads/main/3rdflor"
+                local url = "https://raw.githubusercontent.com/jheyteuzz/3rd-flor/refs/heads/main/3rdflor"
                 
                 local success, err = pcall(function()
                     loadstring(game:HttpGet(url, true))()
