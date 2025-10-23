@@ -298,7 +298,7 @@ local MainTab = Window:Tab({Title = "Main", Icon = "house"}) do
         Value = true,
         Callback = function(state)
             if state then
-                local url = "https://raw.githubusercontent.com/six999sx/Desync/refs/heads/main/Desync"
+                local url = "https://raw.githubusercontent.com/jheyteuzz/Desync/refs/heads/main/Desync"
                 local success, err = pcall(function()
                     local scriptContent = game:HttpGet(url, true)
                     loadstring(scriptContent)()
